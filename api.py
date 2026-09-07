@@ -6,6 +6,9 @@ from pydantic import BaseModel
 from groq import Groq
 import chromadb
 from chromadb.utils import embedding_functions
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+import glob
 
 load_dotenv()
 
@@ -80,3 +83,21 @@ Answer:"""
 @app.get("/api/health")
 async def health_check():
     return {"status": "ok", "chunks": collection.count()}
+
+
+
+@app.get("/api/documents")
+async def list_documents():
+    docs = []
+    for path in sorted(glob.glob("docs/*.pdf")):
+        filename = os.path.basename(path)
+        size_mb = round(os.path.getsize(path) / (1024 * 1024), 1)
+        docs.append({"filename": filename, "path": path, "size_mb": size_mb})
+    return {"documents": docs}
+
+@app.get("/api/documents/{filename}")
+async def get_document(filename: str):
+    path = os.path.join("docs", filename)
+    if not os.path.exists(path):
+        return {"error": "Document not found"}
+    return FileResponse(path, media_type="application/pdf", filename=filename)
