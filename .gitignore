@@ -1,5 +1,5 @@
 venv/
-.envchroma_db/
-frontend/node_modules/
+.env 
+.chroma_db/
 frontend/node_modules/
 __pycache__/
