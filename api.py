@@ -5,8 +5,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from config import DOCS_FOLDER
-from app.rag import ask
+from app.agent import ask
 from app.retriever import get_chunk_count
+
 
 app = FastAPI(title="Compliance RAG API")
 
