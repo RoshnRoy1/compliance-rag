@@ -3,6 +3,7 @@ import chromadb
 from chromadb.utils import embedding_functions
 from rank_bm25 import BM25Okapi
 from config import CHROMA_PATH, COLLECTION_NAME, DEFAULT_TOP_K, DOCS_FOLDER
+from sentence_transformers import CrossEncoder
 
 # Vector search setup
 ef = embedding_functions.DefaultEmbeddingFunction()
@@ -21,6 +22,11 @@ all_ids = all_data["ids"]
 tokenized_docs = [doc.lower().split() for doc in all_docs]
 bm25_index = BM25Okapi(tokenized_docs)
 print(f"BM25 index built over {len(all_docs)} chunks.")
+
+# Cross-encoder reranker setup
+print("Loading cross-encoder reranker...")
+reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+print("Reranker loaded.")
 
 
 def get_chunk_count():
@@ -144,17 +150,37 @@ def _merge_results(vector_results, bm25_results, top_k=3):
 
     return results
 
+def _rerank(question, candidates, top_k=3):
+    """
+    Re-score candidates using a cross-encoder that reads the question
+    and each chunk together, rather than comparing separate embeddings.
+    This catches relevance that vector/BM25 similarity misses.
+    """
+    if not candidates:
+        return []
+
+    pairs = [[question, c["text"]] for c in candidates]
+    scores = reranker.predict(pairs)
+
+    for candidate, score in zip(candidates, scores):
+        candidate["rerank_score"] = round(float(score), 4)
+
+    reranked = sorted(candidates, key=lambda x: x["rerank_score"], reverse=True)
+    return reranked[:top_k]
+
 
 def retrieve(question, top_k=DEFAULT_TOP_K):
-    """Hybrid retrieval: vector + BM25, merged with RRF."""
+    """Hybrid retrieval: vector + BM25, merged with RRF, then reranked."""
     vector_results = _vector_search(question, top_k=top_k * 5)
     bm25_results = _bm25_search(question, top_k=top_k * 5)
-    return _merge_results(vector_results, bm25_results, top_k=top_k)
+    fused = _merge_results(vector_results, bm25_results, top_k=top_k * 3)
+    return _rerank(question, fused, top_k=top_k)
 
 
 def retrieve_from_doc(question, doc_name, top_k=DEFAULT_TOP_K):
-    """Hybrid retrieval filtered to one document."""
+    """Hybrid retrieval filtered to one document, then reranked."""
     doc_path = "docs/" + doc_name
     vector_results = _vector_search(question, top_k=top_k * 5, where_filter={"source": doc_path})
     bm25_results = _bm25_search(question, top_k=top_k * 5, doc_filter=doc_name)
-    return _merge_results(vector_results, bm25_results, top_k=top_k)
+    fused = _merge_results(vector_results, bm25_results, top_k=top_k * 3)
+    return _rerank(question, fused, top_k=top_k)
