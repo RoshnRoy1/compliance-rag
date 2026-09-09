@@ -12,6 +12,10 @@ const EXAMPLES = [
   "Does the AI Act apply to open source models?",
 ];
 
+function sigmoid(x) {
+  return 1 / (1 + Math.exp(-x));
+}
+
 function App() {
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
@@ -228,9 +232,16 @@ function App() {
                         {msg.sources.map((s, j) => {
                           const key = i + "-" + j;
                           const isOpen = expandedSource === key;
-                          const matchPct = Math.min(
-                            99,
-                            Math.round((1 - s.distance) * 100)
+                          const relevance = s.rerank_score !== undefined
+                            ? s.rerank_score
+                            : (1 - s.distance);
+                          // Cross-encoder scores for this model typically range -12 to +6.
+                          // Shift and scale so that range maps to roughly 1%-99% instead of
+                          // collapsing near 0 with a plain sigmoid.
+          
+                          const matchPct = Math.max(
+                            1,
+                            Math.min(99, Math.round(sigmoid((relevance + 4) / 2) * 100))
                           );
                           return (
                             <div key={j} className="source-wrapper">

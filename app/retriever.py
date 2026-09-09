@@ -151,16 +151,12 @@ def _merge_results(vector_results, bm25_results, top_k=3):
     return results
 
 def _rerank(question, candidates, top_k=3):
-    """
-    Re-score candidates using a cross-encoder that reads the question
-    and each chunk together, rather than comparing separate embeddings.
-    This catches relevance that vector/BM25 similarity misses.
-    """
     if not candidates:
         return []
 
     pairs = [[question, c["text"]] for c in candidates]
     scores = reranker.predict(pairs)
+   
 
     for candidate, score in zip(candidates, scores):
         candidate["rerank_score"] = round(float(score), 4)
