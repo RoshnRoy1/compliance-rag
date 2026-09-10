@@ -1,0 +1,352 @@
+[
+  {
+    "question": "Within how many hours must a personal data breach be notified to the supervisory authority under GDPR?",
+    "positive": "Article 33 \nNotification of a personal data breach to the supervisory authority \n1. In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than \n72 hours after having become aware of it, notify the personal data breach to the supervisory authority competent in \naccordance with Article 55, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of",
+    "negative": "legislation \u201d.\n(3) In subsection (8), after \u201csection\u201d insert \u201c\u2014\n\u201cthe data protection legislation\u201d has the same meaning as in the Data \nProtection Act 2018 (see section 3 of that Act);\u201d.\nCommencement Information\nI692 Sch. 19 para. 208 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(g)\n209 In section 44(3) (disclosure of information)\u2014\n(a) in paragraph (a), for \u201cPart 5 of the Data Protection Act 1998\u201d substitute \u201c \nsections 142 to 154, 160 to 164 or 174 to 176 of, or Schedule 15 to, the"
+  },
+  {
+    "question": "What is the maximum administrative fine for GDPR violations?",
+    "positive": "several provisions of this Regulation, the total amount of the administrative fine shall not exceed the amount specified \nfor the gravest infringement. \n4. Infringements of the following provisions shall, in accordance with paragraph 2, be subject to administrative fines \nup to 10 000 000 EUR, or in the case of an undertaking, up to 2 % of the total worldwide annual turnover of the \npreceding financial year, whichever is higher:",
+    "negative": "(g)  to adopt standard data protection clauses referred to in Article 28(8) and in point (d) of Article 46(2); \n(h)  to authorise contractual clauses referred to in point (a) of Article 46(3); \n(i)  to authorise administrative arrangements referred to in point (b) of Article 46(3); \n(j)  to approve binding corporate rules pursuant to Article 47. \n4. The exercise of the powers conferred on the supervisory authority pursuant to this Article shall be subject to"
+  },
+  {
+    "question": "What counts as a high-risk AI system under the EU AI Act?",
+    "positive": "(51) The classification of an AI system as high-risk pursuant to this Regulation should not necessarily mean that the \nproduct whose safety component is the AI system, or the AI system itself as a product, is considered to be high-risk \nunder the criteria established in the relevant Union harmonisation legislation that applies to the product. This is, in \nparticular, the case for Regulations (EU) 2017/745 and (EU) 2017/746, where a third-party conformity assessment is",
+    "negative": "(b) Article 58 of the [F362UK GDPR] (powers),\n(and see also the Commissioner's duty under section 2 [F363and section 28(5)]).\n(3) The Commissioner's functions in relation to the processing of personal data to which \nthe [F364UK GDPR] applies include\u2014\n(a) a duty to advise Parliament, the government and other institutions and \nbodies on legislative and administrative measures relating to the protection \nof individuals' rights and freedoms with regard to the processing of personal \ndata, and"
+  },
+  {
+    "question": "Does the EU AI Act apply to open source AI models?",
+    "positive": "imposed on general-purpose AI models, unless they can be considered to present a systemic risk, in which case the \ncircumstance that the model is transparent and accompanied by an open-source license should not be considered to \nbe a sufficient reason to exclude compliance with the obligations under this Regulation. In any case, given that the \nrelease of general-purpose AI models under free and open-source licence does not necessarily reveal substantial",
+    "negative": "\u201c\u201cthe data protection legislation\u201d has the same meaning as in the Data \nProtection Act 2018 (see section 3 of that Act);\u201d."
+  },
+  {
+    "question": "What rights do data subjects have under GDPR?",
+    "positive": "rights under Articles 77, 78 and 79 of the [F544UK GDPR ] without being \nauthorised to do so by the data subject),\n(d) the merits of making equivalent provision in relation to data subjects' rights \nunder Article 82 of the [F544UK GDPR] (right to compensation), and",
+    "negative": "182 Regulations and consultation\n(1) Regulations under this Act are to be made by statutory instrument.\n(2) Before making regulations under this Act, the Secretary of State must consult\u2014\n(a) the Commissioner, and\n(b) such other persons as the Secretary of State considers appropriate.\n(3) Subsection (2) does not apply to regulations made under\u2014\nF500(a) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n(b) section 30;\n(c) section 211;\n(d) section 212;\n(e) section 213;"
+  },
+  {
+    "question": "What does Article 33 of the UK Data Protection Act reference?",
+    "positive": "(c) in Chapter IV of [F146the UK GDPR]\u2014\n(i) Article 33 (notification of personal data breach to the Commissioner);\n(ii) Article 34 (communication of personal data breach to the data \nsubject);\n(d) Chapter V of [F147the UK GDPR] (transfers of personal data to third countries \nor international organisations);\n(e) in Chapter VI of [F148the UK GDPR]\u2014\n(i) Article 57(1)(a) and (h) (Commissioner's duties to monitor and \nenforce [F148the UK GDPR] and to conduct investigations);",
+    "negative": "(79) It is appropriate that a specific natural or legal person, defined as the provider, takes responsibility for the placing on \nthe market or the putting into service of a high-risk AI system, regardless of whether that natural or legal person is \nthe person who designed or developed the system.\n(80) As signatories to the United Nations Convention on the Rights of Persons with Disabilities, the Union and the"
+  },
+  {
+    "question": "What is a Data Protection Officer and when must one be appointed?",
+    "positive": "designate a data protection officer. The data protection officer may act for such associations and other bodies \nrepresenting controllers or processors. \n5. The data protection officer shall be designated on the basis of professional qualities and, in particular, expert \nknowledge of data protection law and practices and the ability to fulfil the tasks referred to in Article 39.",
+    "negative": "verifications by the different persons are automatically recorded in the logs generated by the system. Given the \nspecificities of the areas of law enforcement, migration, border control and asylum, this requirement should not \napply where Union or national law considers the application of that requirement to be disproportionate.\n(74) High-risk AI systems should perform consistently throughout their lifecycle and meet an appropriate level of"
+  },
+  {
+    "question": "How does the UK GDPR differ from the EU GDPR on maximum fines?",
+    "positive": "relation to a disclosure of information made on or after IP completion day.\nPART 6\nENFORCEMENT\nGDPR: maximum amount of penalties\n16 In relation to an infringement, before IP completion day, of a provision of the EU \nGDPR (as it was directly applicable to the United Kingdom) or the applied GDPR\u2014\n(a) Article 83(5) and (6) of the UK GDPR and section 157(5)(a) and (b) of this \nAct have effect as if for \u201c\u00a317,500,000\u201d there were substituted \u201c 20 million \nEuros \u201d;",
+    "negative": "13) is to be read as if \u201cauthority\u201d included that Agency, and\n(b) subsection (7) does not apply.]"
+  },
+  {
+    "question": "What is required for consent to be valid under GDPR?",
+    "positive": "(a) has obtained the data in circumstances in which an offence under \nsubsection (1) was committed, or\n(b) subsequently obtains the data in such circumstances.\n(6) For the purposes of subsection (5), an advertisement indicating that personal data is \nor may be for sale is an offer to sell the data.\n(7) In this section\u2014\n(a) references to the consent of a controller do not include the consent of a person \nwho is a controller by virtue of Article 28(10) of the [F486UK GDPR ] or",
+    "negative": "Annex II and punishable in the Member State concerned by a custodial sentence or a detention order for \na maximum period of at least four years.\nPoint (h) of the first subparagraph is without prejudice to Article 9 of Regulation (EU) 2016/679 for the processing of \nbiometric data for purposes other than law enforcement.\n2. The use of \u2018real-time\u2019 remote biometric identification systems in publicly accessible spaces for the purposes of law"
+  },
+  {
+    "question": "Compare data breach notification timelines between GDPR and the UK Data Protection Act.",
+    "positive": "14 Data Protection Act 2018 (c. 12)\nPART 2 \u2013 General processing\nCHAPTER 2 \u2013 The UK GDPR\nDocument Generated: 2026-07-09\nStatus: This version of this Act contains provisions that are prospective.\nChanges to legislation: Data Protection Act 2018 is up to date with all changes known to be in force on or before 09 \nJuly 2026. There are changes that may be brought into force at a future date. Changes that have been made appear",
+    "negative": "services under the Act), for \u201chas the same meaning as in the Data Protection Act \n1998\u201d substitute \u201c has the same meaning as in Parts 5 to 7 of the Data Protection \nAct 2018 (see section 3(4) and (14) of that Act) \u201d.\nCommencement Information\nI606 Sch. 19 para. 119 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(g)\nCompanies Act 2006 (c. 46)\n120 The Companies Act 2006 is amended as follows.\nCommencement Information\nI607 Sch. 19 para. 120 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(g)"
+  },
+  {
+    "question": "To which supervisory authority must associations or other bodies submit a draft code of conduct, amendment, or extension for an opinion?",
+    "positive": "competent pursuant to Article 55 or 56. \n5. Associations and other bodies referred to in paragraph 2 of this Article which intend to prepare a code of conduct \nor to amend or extend an existing code shall submit the draft code, amendment or extension to the supervisory \nauthority which is competent pursuant to Article 55. The supervisory authority shall provide an opinion on whether the",
+    "negative": "(35) \u2018biometric identification\u2019 means the automated recognition of physical, physiological, behavioural, or psychological \nhuman features for the purpose of establishing the identity of a natural person by comparing biometric data of that \nindividual to biometric data of individuals stored in a database;\n(36) \u2018biometric verification\u2019 means the automated, one-to-one verification, including authentication, of the identity of",
+    "source": "docs/gdpr.pdf"
+  },
+  {
+    "question": "Which specific rules regarding AI systems for law enforcement are based on Article 16 TFEU, and what is the required consequence of this legal basis concerning the European Data Protection Board?",
+    "positive": "law enforcement, of the use of AI systems for risk assessments of natural persons for the purpose of law \nenforcement and of the use of AI systems of biometric categorisation for the purpose of law enforcement, it is \nappropriate to base this Regulation, in so far as those specific rules are concerned, on Article 16 TFEU. In light of \nthose specific rules and the recourse to Article 16 TFEU, it is appropriate to consult the European Data Protection \nBoard.",
+    "negative": "month of receipt of the request for consultation together with the reasons for the delay. Those periods may be \nsuspended until the supervisory authority has obtained information it has requested for the purposes of the \nconsultation. \n3. When consulting the supervisory authority pursuant to paragraph 1, the controller shall provide the supervisory \nauthority with: \n(a)  where applicable, the respective responsibilities of the controller, joint controllers and processors involved in the",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "Under what specific condition may the use of biometric identification systems be authorized within the territory of a Member State?",
+    "positive": "biometric identification systems.\n(37) Furthermore, it is appropriate to provide, within the exhaustive framework set by this Regulation that such use in \nthe territory of a Member State in accordance with this Regulation should only be possible where and in as far as the \nMember State concerned has decided to expressly provide for the possibility to authorise such use in its detailed rules",
+    "negative": "access to the information under the GDPR;\n(ab) the information is personal data described in Article 9(1) or 10 of the \nGDPR (special categories of personal data and personal data relating \nto criminal convictions and offences);\u201d.\n(4) In paragraph (d), for \u201cto the extent that its disclosure\u201d substitute \u201c the disclosure of \nthe information \u201d.\n(5) In paragraph (e), for \u201cthat\u201d substitute \u201c the information \u201d.\nCommencement Information",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "When personal data is obtained from a source other than the data subject, within what timeframe must the information regarding the processing be provided to the data subject?",
+    "positive": "meaningful overview of the intended processing. Where the icons are presented electronically, they should be \nmachine-readable. \n(61)  The information in relation to the processing of personal data relating to the data subject should be given to him \nor her at the time of collection from the data subject, or, where the personal data are obtained from another \nsource, within a reasonable period, depending on the circumstances of the case. Where personal data can be",
+    "negative": "(a) a description of the nature of the breach;\n(b) the name and contact details of the data protection officer or other contact \npoint from whom more information can be obtained;\n(c) a description of the likely consequences of the personal data breach;\n(d) a description of the measures taken or proposed to be taken by the controller \nto address the personal data breach, including, where appropriate, measures \nto mitigate its possible adverse effects.",
+    "source": "docs/gdpr.pdf"
+  },
+  {
+    "question": "Under what specific conditions does the repeal of Part 1 of the Regulation of Investigatory Powers Act 2000 affect the application of the disclosure prohibitions in subsection (2)?",
+    "positive": "(b) its other functions relating to the Commissioner's acts and omissions.\n(2) But this section does not authorise the making of a disclosure which is prohibited by \nany of Parts 1 to 7 or Chapter 1 of Part 9 of the Investigatory Powers Act 2016.\n(3) Until the repeal of Part 1 of the Regulation of Investigatory Powers Act 2000 by \nparagraphs 45 and 54 of Schedule 10 to the Investigatory Powers Act 2016 is fully in \nforce, subsection (2) has effect as if it included a reference to that Part.",
+    "negative": "which have been provided by him or her for the performance of a contract to the extent that and for as long as \nthe personal data are necessary for the performance of that contract. Where technically feasible, the data subject \nshould have the right to have the personal data transmitted directly from one controller to another. \n(69)  Where personal data might lawfully be processed because processing is necessary for the performance of a task",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "Under what specific condition is the information in the EU database accessible to the public, rather than being restricted solely to market surveillance authorities and the Commission?",
+    "positive": "shall be accessible only to market surveillance authorities and the Commission, unless the prospective provider or provider \nhas given consent for also making the information accessible the public.\n5. The EU database shall contain personal data only in so far as necessary for collecting and processing information in \naccordance with this Regulation. That information shall include the names and contact details of natural persons who are",
+    "negative": "supervisory authority in accordance with its tasks and powers laid down in this Regulation. \n(88)  In setting detailed rules concerning the format and procedures applicable to the notification of personal data \nbreaches, due consideration should be given to the circumstances of that breach, including whether or not \npersonal data had been protected by appropriate technical protection measures, effectively limiting the likelihood",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "Which specific statutory instrument and regulations were responsible for omitting Schedule 2, paragraph 4(1B) of the Data Protection Act 2018 on 8 March 2024?",
+    "positive": "F628 Sch. 2 para. 4(1B) omitted (8.3.2024) by virtue of The Data Protection Act 2018 (Amendment of \nSchedule 2 Exemptions) Regulations 2024 (S.I. 2024/342), regs. 1(2), 2(3)\nF629 Word in Sch. 2 para. 4(1C) omitted (8.3.2024) by virtue of The Data Protection Act 2018 (Amendment \nof Schedule 2 Exemptions) Regulations 2024 (S.I. 2024/342), regs. 1(2), 2(4)(a)\nF630 Words in Sch. 2 para. 4(1C) substituted (8.3.2024) by The Data Protection Act 2018 (Amendment of",
+    "negative": "pursuant to this Regulation. \nArticle 88 \nProcessing in the context of employment \n1. Member States may, by law or by collective agreements, provide for more specific rules to ensure the protection of \nthe rights and freedoms in respect of the processing of employees' personal data in the employment context, in \nparticular for the purposes of the recruitment, the performance of the contract of employment, including discharge of",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "By what date must providers of general-purpose AI models placed on the market before 2 August 2025 take the necessary steps to comply with the obligations laid down in the Regulation?",
+    "positive": "changes in their designs. In any case, the providers and deployers of high-risk AI systems intended to be used by public \nauthorities shall take the necessary steps to comply with the requirements and obligations of this Regulation by 2 August \n2030.\n3. Providers of general-purpose AI models that have been placed on the market before 2 August 2025 shall take the \nnecessary steps in order to comply with the obligations laid down in this Regulation by 2 August 2027.\nOJ L, 12.7.2024 EN",
+    "negative": "(3) The provisions of Chapter 2 of this Part (principles) which are excepted from the list \nin subsection (2) are\u2014\n(a) section 35(1) (the first data protection principle) so far as it requires processing \nof personal data to be lawful;\n(b) section 35(2) to (5) (lawfulness of processing and restrictions on sensitive \nprocessing);\n(c) section 42 (safeguards: sensitive processing);\n(d) Schedule 8 (conditions for sensitive processing).",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "Under Article 25(1)(a) of the Regulation, under what specific circumstance is a distributor, importer, deployer, or other third-party reclassified as the provider of a high-risk AI system and thus subject to the obligations outlined in Article 16?",
+    "positive": "Article 25\nResponsibilities along the AI value chain\n1. Any distributor, importer, deployer or other third-party shall be considered to be a provider of a high-risk AI system \nfor the purposes of this Regulation and shall be subject to the obligations of the provider under Article 16, in any of the \nfollowing circumstances:\n(a) they put their name or trademark on a high-risk AI system already placed on the market or put into service, without",
+    "negative": "July 2026. There are changes that may be brought into force at a future date. Changes that have been made appear \nin the content and are referenced with annotations. (See end of Document for details) View outstanding changes\nTextual Amendments\nF106 Words in s. 18 heading inserted (31.12.2020) by The Data Protection, Privacy and Electronic \nCommunications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419), reg. 1(2), Sch. 2 \npara. 24(2) (with reg. 5); 2020 c. 1, Sch. 5 para. 1(1)",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "Under which Part and Chapter of the Data Protection Act 2018 are the principles governing intelligence services processing located?",
+    "positive": "90 Data Protection Act 2018 (c. 12)\nPART 4 \u2013 Intelligence services processing\nCHAPTER 2 \u2013 Principles\nDocument Generated: 2026-07-09\nStatus: This version of this Act contains provisions that are prospective.\nChanges to legislation: Data Protection Act 2018 is up to date with all changes known to be in force on or before 09 \nJuly 2026. There are changes that may be brought into force at a future date. Changes that have been made appear",
+    "negative": "an AI system available on the Union market;\n(8) \u2018operator\u2019 means a provider, product manufacturer, deployer, authorised representative, importer or distributor;\nEN OJ L, 12.7.2024\n46/144 ELI: http://data.europa.eu/eli/reg/2024/1689/oj",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "Under Schedule 1, paragraph 8, what are the three specific conditions that must be met regarding an individual's written notice to withdraw a requirement for their personal data to be processed?",
+    "positive": "personal data in respect of which the individual is the data subject (and has \nnot given notice in writing withdrawing that requirement),\n(b) the notice gave the controller a reasonable period in which to stop processing \nsuch data, and\n(c) that period has ended.\nCommencement Information\nI240 Sch. 1 para. 8 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(b)\nRacial and ethnic diversity at senior levels of organisations\n9 (1) This condition is met if the processing\u2014",
+    "negative": "those activities, to use AI systems for national security, military and defence purposes, the use of which is excluded \nfrom the scope of this Regulation. An AI system placed on the market for civilian or law enforcement purposes \nwhich is used with or without modification for military, defence or national security purposes should not fall within \nthe scope of this Regulation, regardless of the type of entity carrying out those activities.",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "Which specific statutory instrument and schedule paragraph are responsible for substituting the words in section 148(1)(b) of the Data Protection Act 2018?",
+    "positive": "Data Protection Act 2018 (c. 12)\nDocument Generated: 2026-07-09\n519\n\u2013 s. 148(1)(b) words substituted by S.I. 2026/386 Sch. 2 para. 23(9)(a)(ii)\n\u2013 s. 148(2) words substituted by S.I. 2026/386 Sch. 2 para. 23(9)(b)\n\u2013 s. 148A(1)(2) word substituted by S.I. 2026/386 Sch. 2 para. 23(2)(3)\n\u2013 s. 148A(8)(9) word substituted by S.I. 2026/386 Sch. 2 para. 23(2)(3)\n\u2013 s. 148B(8)(9) word substituted by S.I. 2026/386 Sch. 2 para. 23(2)(3)\n\u2013 s. 149(1) word substituted by S.I. 2026/386 Sch. 2 para. 23(2)(3)",
+    "negative": "unless relevant copyright exceptions and limitations apply. Directive (EU) 2019/790 introduced exceptions and \nlimitations allowing reproductions and extractions of works or other subject matter, for the purpose of text and data \nOJ L, 12.7.2024 EN\nELI: http://data.europa.eu/eli/reg/2024/1689/oj 27/144\n(40) Directive (EU) 2019/790 of the European Parliament and of the Council of 17 April 2019 on copyright and related rights in the",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "As of July 9, 2026, does the current version of the Data Protection Act 2018 contain any provisions that are still prospective and not yet in force?",
+    "positive": "120 Data Protection Act 2018 (c. 12)\nPART 5 \u2013 The Information Commissioner\nCHAPTER 6 \u2013 Exemptions\nDocument Generated: 2026-07-09\nStatus: This version of this Act contains provisions that are prospective.\nChanges to legislation: Data Protection Act 2018 is up to date with all changes known to be in force on or before 09 \nJuly 2026. There are changes that may be brought into force at a future date. Changes that have been made appear",
+    "negative": "5. The supply of incorrect, incomplete or misleading information to notified bodies or national competent authorities in \nreply to a request shall be subject to administrative fines of up to EUR 7 500 000 or, if the offender is an undertaking, up to \n1 % of its total worldwide annual turnover for the preceding financial year, whichever is higher.\n6. In the case of SMEs, including start-ups, each fine referred to in this Article shall be up to the percentages or amount",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "Under paragraph (3), how are the data-sharing code and direct marketing code in force immediately before the relevant time treated for the purposes of subsection (3) of that section?",
+    "positive": "in the content and are referenced with annotations. (See end of Document for details) View outstanding changes\n(3) For the purposes of subsection (3) of that section, as it has effect by virtue of this \nparagraph, the data-sharing code and direct marketing code in force immediately \nbefore the relevant time are to be treated as having continued in force after that time.\n(4) In this paragraph\u2014\n\u201cthe data-sharing code\u201d and \u201cthe direct marketing code\u201d mean the codes",
+    "negative": "those objectives, and that they take due account of the needs and interests of all interested parties, including affected \npersons, at Union level.\n5. The AI Office shall aim to ensure that participants to the codes of practice report regularly to the AI Office on the \nimplementation of the commitments and the measures taken and their outcomes, including as measured against the key",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "As of July 9, 2026, is the Data Protection Act 2018 up to date with all legislative changes known to be in force?",
+    "positive": "Data Protection Act 2018 (c. 12)\nPART 3 \u2013 Law enforcement processing\nCHAPTER 6 \u2013 Supplementary\nDocument Generated: 2026-07-09\n81\nStatus: This version of this Act contains provisions that are prospective.\nChanges to legislation: Data Protection Act 2018 is up to date with all changes known to be in force on or before 09 \nJuly 2026. There are changes that may be brought into force at a future date. Changes that have been made appear",
+    "negative": "the management of modifications to the high-risk AI system;\n(b) techniques, procedures and systematic actions to be used for the design, design control and design verification of the \nhigh-risk AI system;\n(c) techniques, procedures and systematic actions to be used for the development, quality control and quality assurance of \nthe high-risk AI system;\n(d) examination, test and validation procedures to be carried out before, during and after the development of the high-risk",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What is the commencement date for Schedule 3, paragraph 1, as specified in the commencement information for the Communications (Amendments etc) (EU Exit) Regulations 2019?",
+    "positive": "Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419), reg. 1(2), Sch. 2 para. \n93(4) (with reg. 5); 2020 c. 1, Sch. 5 para. 1(1)\nCommencement Information\nI303 Sch. 3 para. 1 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(b)\nPART 2\nHEALTH DATA\nDefinitions\n2 (1) In this Part of this Schedule\u2014\n\u201cthe appropriate health professional\u201d, in relation to a question as to \nwhether the serious harm test is met with respect to data concerning health,\nmeans\u2014",
+    "negative": "(75) Technical robustness is a key requirement for high-risk AI systems. They should be resilient in relation to harmful or \notherwise undesirable behaviour that may result from limitations within the systems or the environment in which \nthe systems operate (e.g. errors, faults, inconsistencies, unexpected situations). Therefore, technical and \norganisational measures should be taken to ensure robustness of high-risk AI systems, for example by designing",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "Under subsection (2) of Section 175, what is the Commissioner's obligation regarding the timing and scope of the decision after receiving an application for assistance in special purposes proceedings?",
+    "positive": "in the content and are referenced with annotations. (See end of Document for details) View outstanding changes\n175 Provision of assistance in special purposes proceedings\n(1) An individual who is a party, or prospective party, to special purposes proceedings \nmay apply to the Commissioner for assistance in those proceedings.\n(2) As soon as reasonably practicable after receiving an application under subsection (1), \nthe Commissioner must decide whether, and to what extent, to grant it.",
+    "negative": "quality management system required by Article 17 of this Regulation in a simplified manner, provided that they do not \nhave partner enterprises or linked enterprises within the meaning of that Recommendation. For that purpose, the \nCommission shall develop guidelines on the elements of the quality management system which may be complied with in \na simplified manner considering the needs of microenterprises, without affecting the level of protection or the need for",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What specific arrangements is the Commissioner required to make regarding the panel's consideration of the code and the submission of their report?",
+    "positive": "in the content and are referenced with annotations. (See end of Document for details) View outstanding changes\n(7) The Commissioner must make arrangements\u2014\n(a) for the members of the panel to consider the code with one another (whether \nin person or otherwise), and\n(b) for the panel to prepare and submit to the Commissioner a report on the code \nwithin such reasonable period as is determined by the Commissioner.",
+    "negative": "entities or events and would falsely appear to a person to be authentic or truthful (deep fakes), should also clearly \nand distinguishably disclose that the content has been artificially created or manipulated by labelling the AI output \naccordingly and disclosing its artificial origin. Compliance with this transparency obligation should not be \ninterpreted as indicating that the use of the AI system or its output impedes the right to freedom of expression and",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "When did paragraph 303 of Schedule 19 come into force, and which statutory instrument effected this commencement?",
+    "positive": "in the content and are referenced with annotations. (See end of Document for details) View outstanding changes\nCommencement Information\nI785 Sch. 19 para. 303 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(g)\nFreedom of Information and Data Protection (Appropriate \nLimit and Fees) Regulations 2004 (S.I. 2004/3244)\n304 In regulation 3(1) of the Freedom of Information and Data Protection (Appropriate \nLimit and Fees) Regulations 2004, omit \u201cthe appropriate limit referred to in",
+    "negative": "Regulation. \nArticle 95 \nRelationship with Directive 2002/58/EC \nThis Regulation shall not impose additional obligations on natural or legal persons in relation to processing in \nconnection with the provision of publicly available electronic communications services in public communication \nnetworks in the Union in relation to matters for which they are subject to specific obligations with the same objective \nset out in Directive 2002/58/EC.",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "Under what specific circumstances is the Commissioner permitted to respond to a data subject's request as manifestly unfounded or excessive?",
+    "positive": "in the content and are referenced with annotations. (See end of Document for details) View outstanding changes\n135 Manifestly unfounded or excessive requests by data subjects etc\n[F407(A1) This section makes provision about cases in which a request made to the \nCommissioner, to which the Commissioner is required or authorised to respond under \nthe data protection legislation, is manifestly unfounded or excessive.]\n(1) F408... The Commissioner may\u2014",
+    "negative": "(k) assist the AI Office in supporting national competent authorities in the establishment and development of AI \nregulatory sandboxes, and facilitate cooperation and information-sharing among AI regulatory sandboxes;\n(l) contribute to, and provide relevant advice on, the development of guidance documents;\n(m) advise the Commission in relation to international matters on AI;\n(n) provide opinions to the Commission on the qualified alerts regarding general-purpose AI models;",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What is the specific statutory obligation imposed on the Commissioner regarding the publication of guidance on proposed fees under section 136(1)?",
+    "positive": "2026/82, reg. 2(p)\nCommencement Information\nI139 S. 135 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(e)\n136 Guidance about fees\n(1) The Commissioner must produce and publish guidance about the fees the \nCommissioner proposes to charge in accordance with\u2014\n(a) section 134 or 135, F413...\nF413(b) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "negative": "no data protection impact assessment is required. The supervisory authority shall communicate those lists to the Board. \n6. Prior to the adoption of the lists referred to in paragraphs 4 and 5, the competent supervisory authority shall \napply the consistency mechanism referred to in Article 63 where such lists involve processing activities which are \nrelated to the offering of goods or services to data subjects or to the monitoring of their behaviour in several",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "Under what specific condition is the Commissioner exempted from the requirement to pay all fees, charges, penalties, and other sums received to the Secretary of State?",
+    "positive": "Fees etc and other sums\n10 (1) All fees, charges, penalties and other sums received by the Commissioner in carrying \nout the Commissioner's functions are to be paid by the Commissioner to the Secretary \nof State.\n(2) Sub-paragraph (1) does not apply where the Secretary of State, with the consent of \nthe Treasury, otherwise directs.\n(3) Any sums received by the Secretary of State under sub-paragraph (1) are to be paid \ninto the Consolidated Fund.\nCommencement Information",
+    "negative": "person for health purposes; information derived from the testing or examination of a body part or bodily \nsubstance, including from genetic data and biological samples; and any information on, for example, a disease, \ndisability, disease risk, medical history, clinical treatment or the physiological or biomedical state of the data \nsubject independent of its source, for example from a physician or other health professional, a hospital, a medical \ndevice or an in vitro diagnostic test.",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "When did Sch. 19 para. 187 of the Protection Act 2018 come into force?",
+    "positive": "Protection Act 2018),\u201d.\nCommencement Information\nI674 Sch. 19 para. 187 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(g)\nSocial Services and Well-being (Wales) Act 2014 (anaw 4)\n188 In section 18(10)(b) of the Social Services and Well-being (Wales) Act 2014 \n(registers of sight-impaired, hearing-impaired and other disabled people)\u2014\n(a) in the English language text, for \u201c(within the meaning of the Data \nProtection Act 1998)\u201d substitute \u201c (within the meaning of Parts 5 to 7 of",
+    "negative": "\u2014 illicit trade in human organs or tissue,\n\u2014 illicit trafficking in nuclear or radioactive materials,\n\u2014 kidnapping, illegal restraint or hostage-taking,\n\u2014 crimes within the jurisdiction of the International Criminal Court,\n\u2014 unlawful seizure of aircraft or ships,\n\u2014 rape,\n\u2014 environmental crime,\n\u2014 organised or armed robbery,\n\u2014 sabotage,\n\u2014 participation in a criminal organisation involved in one or more of the offences listed above.\nEN OJ L, 12.7.2024",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "As of July 9, 2026, does the current version of the Data Protection Act 2018 contain any prospective provisions that are not yet in force?",
+    "positive": "312 Data Protection Act 2018 (c. 12)\nSCHEDULE 12 \u2013 The Information Commissioner\nDocument Generated: 2026-07-09\nStatus: This version of this Act contains provisions that are prospective.\nChanges to legislation: Data Protection Act 2018 is up to date with all changes known to be in force on or before 09 \nJuly 2026. There are changes that may be brought into force at a future date. Changes that have been made appear",
+    "negative": "(88) Along the AI value chain multiple parties often supply AI systems, tools and services but also components or \nprocesses that are incorporated by the provider into the AI system with various objectives, including the model \ntraining, model retraining, model testing and evaluation, integration into software, or other aspects of model \ndevelopment. Those parties have an important role to play in the value chain towards the provider of the high-risk",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "On what date did paragraph 188 of Schedule 19 to the Counter-Terrorism and Security Act 2015 come into force?",
+    "positive": "the Data Protection Act 2018 (see section 3(2) and (14) of that Act)) \u201d, and\n(b) in the Welsh language text, for \u201c(o fewn ystyr \u201cpersonal data\u201d yn Neddf \nDiogelu Data 1998)\u201d substitute \u201c(o fewn ystyr \u201c personal data \u201d  yn Rhan \n5 i 7 o Ddeddf Diogelu Data 2018 (gweler adran 3(2) a (14) o'r Ddeddf \nhonno))\u201d.\nCommencement Information\nI675 Sch. 19 para. 188 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(g)\nCounter-Terrorism and Security Act 2015 (c. 6)",
+    "negative": "law enforcement activities.\n8. This Article shall not affect the prohibitions that apply where an AI practice infringes other Union law.\nCHAPTER III\nHIGH-RISK AI SYSTEMS\nSECTION 1\nClassification of AI systems as high-risk\nArticle 6\nClassification rules for high-risk AI systems\n1. Irrespective of whether an AI system is placed on the market or put into service independently of the products",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What specific types of threats must the appropriate technical or organisational measures protect against to satisfy the 'integrity and confidentiality' principle?",
+    "positive": "organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject \n(\u2018storage limitation\u2019); \n(f)  processed in a manner that ensures appropriate security of the personal data, including protection against \nunauthorised or unlawful processing and against accidental loss, destruction or damage, using appropriate technical \nor organisational measures (\u2018integrity and confidentiality\u2019).",
+    "negative": "oversight requirement for those systems so that no action or decision may be taken by the deployer on the basis of \nthe identification resulting from the system unless this has been separately verified and confirmed by at least two \nnatural persons. Those persons could be from one or more entities and include the person operating or using the \nsystem. This requirement should not pose unnecessary burden or delays and it could be sufficient that the separate",
+    "source": "docs/gdpr.pdf"
+  },
+  {
+    "question": "What specific qualifications and authorities must the persons overseeing real-world AI testing possess, and what capability must the AI system's outputs have regarding reversal?",
+    "positive": "(j) the testing in real world conditions is effectively overseen by the provider or prospective provider, as well as by \ndeployers or prospective deployers through persons who are suitably qualified in the relevant field and have the \nnecessary capacity, training and authority to perform their tasks;\n(k) the predictions, recommendations or decisions of the AI system can be effectively reversed and disregarded.",
+    "negative": "for the single establishment of the controller or processor should act as lead authority. It should cooperate with \nthe other authorities concerned, because the controller or processor has an establishment on the territory of their \nMember State, because data subjects residing on their territory are substantially affected, or because a complaint \nhas been lodged with them. Also where a data subject not residing in that Member State has lodged a complaint,",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "Under subsection (4), is the imposition of a requirement justified as being in the public interest solely on the ground that it would assist in the prevention, investigation, or detection of crime, given the provisions of Part 5 of the Police Act 1997?",
+    "positive": "of a court or tribunal, or\n(b) in the particular circumstances, was justified as being in the public interest.\n(4) The imposition of the requirement referred to in subsection (1) or (2) is not to be \nregarded as justified as being in the public interest on the ground that it would assist \nin the prevention [F517, investigation] or detection of crime, given [F518\u2014\n(a) Part 5 of the Police Act 1997 (certificates of criminal records etc), and",
+    "negative": "poisoning) or trained models (e.g. adversarial attacks or membership inference), or exploit vulnerabilities in the AI \nsystem\u2019s digital assets or the underlying ICT infrastructure. To ensure a level of cybersecurity appropriate to the risks, \nsuitable measures, such as security controls, should therefore be taken by the providers of high-risk AI systems, also \ntaking into account as appropriate the underlying ICT infrastructure.",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "According to the amendment to section 49B(7) of Directive 2005/36, how is the term \"the GDPR\" defined in relation to the Data Protection Act 2018?",
+    "positive": "22 In section 49B(7) (Directive 2005/36: designation of competent authority etc.), after \n\u201cSchedule 4A\u201d insert \u201c\u2014\n\u201cthe GDPR\u201d means Regulation (EU) 2016/679 of the European Parliament \nand of the Council of 27 April 2016 on the protection of natural persons with \nregard to the processing of personal data and on the free movement of such \ndata (General Data Protection Regulation), read with Chapter 2 of Part 2 of \nthe Data Protection Act 2018;\u201d.\nCommencement Information",
+    "negative": "ANNEX VI\nConformity assessment procedure based on internal control\n1. The conformity assessment procedure based on internal control is the conformity assessment procedure based on \npoints 2, 3 and 4.\n2. The provider verifies that the established quality management system is in compliance with the requirements of \nArticle 17.\n3. The provider examines the information contained in the technical documentation in order to assess the compliance",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What specific information regarding the suspension or termination of testing in real world conditions must be included in the registration of an AI system under the provided regulatory requirements?",
+    "positive": "2. The name and contact details of the provider or prospective provider and of the deployers involved in the testing in \nreal world conditions;\n3. A brief description of the AI system, its intended purpose, and other information necessary for the identification of \nthe system;\n4. A summary of the main characteristics of the plan for testing in real world conditions;\n5. Information on the suspension or termination of the testing in real world conditions.\nEN OJ L, 12.7.2024",
+    "negative": "offences and charging offenders) in connection with offences under this Act.\n(2) The Commissioner\u2014\n(a) may alter or replace the guidance, and\n(b) must publish any altered or replacement guidance.\n(3) The Commissioner must consult the Secretary of State before publishing guidance \nunder this section (including any altered or replacement guidance).\n(4) The Commissioner must arrange for guidance under this section (including any altered \nor replacement guidance) to be laid before Parliament.",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "What is the definition of \"the relevant time\" for the purpose of limiting the Commissioner's assessment of acts and omissions under paragraph (2)?",
+    "positive": "paragraph (2).\n(2) The Commissioner is only required to make an assessment of acts and omissions that \ntook place before the relevant time.\n(3) In this paragraph, \u201cthe relevant time\u201d means the time when the repeal of section 42 \nof the 1998 Act comes into force.\nCommencement Information\nI941 Sch. 20 para. 27 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(g)\nCodes of practice\n28 (1) The repeal of section 52E of the 1998 Act (effect of codes of practice) does not affect",
+    "negative": "6. The lead supervisory authority or, as the case may be, the supervisory authority with which the complaint has \nbeen lodged shall adopt its final decision on the basis of the decision referred to in paragraph 1 of this Article, without \nundue delay and at the latest by one month after the Board has notified its decision. The lead supervisory authority or, \nas the case may be, the supervisory authority with which the complaint has been lodged, shall inform the Board of the",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What specific action is the Commission required to take, after consulting the Board, to clarify the practical implementation of the exceptional basis for classifying certain annexed AI systems as non-high-risk?",
+    "positive": "an annex to this Regulation are, on an exceptional basis, non-high-risk, the Commission should, after consulting the \nBoard, provide guidelines specifying that practical implementation, completed by a comprehensive list of practical \nexamples of use cases of AI systems that are high-risk and use cases that are not.\n(54) As biometric data constitutes a special category of personal data, it is appropriate to classify as high-risk several",
+    "negative": "266 Data Protection Act 2018 (c. 12)\nSCHEDULE 3 \u2013 Exemptions etc from the UK GDPR: health, social work, education and child abuse \ndata\nDocument Generated: 2026-07-09\nStatus: This version of this Act contains provisions that are prospective.\nChanges to legislation: Data Protection Act 2018 is up to date with all changes known to be in force on or before 09 \nJuly 2026. There are changes that may be brought into force at a future date. Changes that have been made appear",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "What specific factors regarding the AI system's autonomy, human override capabilities, and history of harm must be considered when assessing its impact on fundamental rights?",
+    "positive": "personal data are processed;\n(d) the extent to which the AI system acts autonomously and the possibility for a human to override a decision or \nrecommendations that may lead to potential harm;\n(e) the extent to which the use of an AI system has already caused harm to health and safety, has had an adverse impact on \nfundamental rights or has given rise to significant concerns in relation to the likelihood of such harm or adverse impact,",
+    "negative": "in the content and are referenced with annotations. (See end of Document for details) View outstanding changes\nCommencement Information\nI158 S. 151 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(f)\n152 Enforcement notices: restrictions\n(1) The Commissioner may not give a controller or processor an enforcement notice in \nreliance on section 149(2) with respect to the processing of personal data for the special \npurposes unless\u2014",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "Which specific Council Decision was repealed by Decision No 768/2008/EC regarding the common framework for the marketing of products?",
+    "positive": "(7) Regulation (EC) No 765/2008 of the European Parliament and of the Council of 9 July 2008 setting out the requirements for \naccreditation and repealing Regulation (EEC) No 339/93 (OJ L 218, 13.8.2008, p. 30).\n(8) Decision No 768/2008/EC of the European Parliament and of the Council of 9 July 2008 on a common framework for the \nmarketing of products, and repealing Council Decision 93/465/EEC (OJ L 218, 13.8.2008, p. 82).",
+    "negative": "country or the United Kingdom], and\n(b) the authorisation cannot be obtained in good time.\n(6) Where a transfer is made without the authorisation mentioned in subsection (1)(b), \nthe authority in the member State which would have been responsible for deciding \nwhether to authorise the transfer must be informed without delay.\n(7) In this section, \u201crelevant international organisation\u201d means an international \norganisation that carries out functions for any of the law enforcement purposes.",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "What is the defined meaning of \"the relevant time\" in relation to the repeal of section 54 of the 1998 Act?",
+    "positive": "in the content and are referenced with annotations. (See end of Document for details) View outstanding changes\nof articles 1 to 4 of that Order after the relevant time in relation to transfers that took \nplace before the relevant time.\n(2) In this paragraph\u2014\n\u201cthe relevant time\u201d means the time when the repeal of section 54 of the \n1998 Act comes into force;\n\u201ctransfer\u201d has the meaning given in article 2 of the Data Protection \n(International Co-operation) Order 2000 (S.I. 2000/190).",
+    "negative": "an imminent threat to life or the physical safety of a person, including through serious harm to the provision of basic \nsupplies to the population or to the exercise of the core function of the State. In addition, this Regulation should \npreserve the ability for law enforcement, border control, immigration or asylum authorities to carry out identity \nchecks in the presence of the person concerned in accordance with the conditions set out in Union and national law",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What is the specific statutory provision that defines the meaning of \"the data protection legislation\" within this document?",
+    "positive": "in the content and are referenced with annotations. (See end of Document for details) View outstanding changes\n\u201c\u201cthe data protection legislation\u201d has the same meaning as in the Data \nProtection Act 2018 (see section 3 of that Act);\u201d.\nCommencement Information\nI629 Sch. 19 para. 142 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(g)\nSerious Crime Act 2007 (c. 27)\n143 The Serious Crime Act 2007 is amended as follows.\nCommencement Information",
+    "negative": "Article 105\nAmendment to Directive 2014/90/EU\nIn Article 8 of Directive 2014/90/EU, the following paragraph is added:\n\u20185. For Artificial Intelligence systems which are safety components within the meaning of Regulation (EU) 2024/1689 of \nthe European Parliament and of the Council (*), when carrying out its activities pursuant to paragraph 1 and when adopting \ntechnical specifications and testing standards in accordance with paragraphs 2 and 3, the Commission shall take into",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What specific purpose must the information and documentation provided by general-purpose AI model providers serve to enable downstream AI system providers to comply with their regulatory obligations?",
+    "positive": "integrate the general-purpose AI model into their AI systems. Without prejudice to the need to observe and protect \nintellectual property rights and confidential business information or trade secrets in accordance with Union and \nnational law, the information and documentation shall:\n(i) enable providers of AI systems to have a good understanding of the capabilities and limitations of the \ngeneral-purpose AI model and to comply with their obligations pursuant to this Regulation; and",
+    "negative": "(2) The following provisions (as amended by Schedule 19 to this Act) have effect \nafter the relevant time as if the offences they refer to included an offence under \nany provision of the 1998 Act other than paragraph 12 of Schedule 9 to that Act \n(obstruction of execution of warrant)\u2014\n(a) section 11AA(1)(b) of the Parliamentary Commissioner Act 1967;\n(b) sections 33A(1)(b) and 34O(1)(b) of the Local Government Act 1974;\n(c) section 18A(1)(b) of the Health Service Commissioners Act 1993;",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "What specific identification number and annex-specified information must be registered for high-risk AI systems in law enforcement, migration, asylum, and border control management that have undergone testing in real-world conditions under Article 71(4)?",
+    "positive": "referred to in points 1, 6 and 7 of Annex III in the areas of law enforcement, migration, asylum and border control \nmanagement, and high-risk AI systems referred to in point 2 of Annex III has registered the testing in real world \nconditions in accordance with Article 71(4) with a Union-wide unique single identification number and with the \ninformation specified in Annex IX; the provider or prospective provider of high-risk AI systems referred to in points 1,",
+    "negative": "personal data, the controller, taking account of available technology and the cost of implementation, shall take \nreasonable steps, including technical measures, to inform controllers which are processing the personal data that the \ndata subject has requested the erasure by such controllers of any links to, or copy or replication of, those personal data. \n3. Paragraphs 1 and 2 shall not apply to the extent that processing is necessary:",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "Under Article 48, what specific condition must be met for a digital CE marking to be used on high-risk AI systems provided digitally?",
+    "positive": "updating the content of the EU declaration of conformity set out in that Annex, in order to introduce elements that become \nnecessary in light of technical progress.\nArticle 48\nCE marking\n1. The CE marking shall be subject to the general principles set out in Article 30 of Regulation (EC) No 765/2008.\n2. For high-risk AI systems provided digitally, a digital CE marking shall be used, only if it can easily be accessed via the",
+    "negative": "92(8)(b) (with reg. 5); 2020 c. 1, Sch. 5 para. 1(1)\nF633 Sch. 2 para. 4(3) omitted (31.1.2022) by virtue of The Data Protection Act 2018 (Amendment of \nSchedule 2 Exemptions) Regulations 2022 (S.I. 2022/76), regs. 1(2), 2(2)(d)\nF634 Sch. 2 para. 4(4) omitted (31.1.2022) by virtue of The Data Protection Act 2018 (Amendment of \nSchedule 2 Exemptions) Regulations 2022 (S.I. 2022/76), regs. 1(2), 2(2)(d)\nCommencement Information",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "Which specific regulations and statutory instruments are cited as the authority for the substitution of the words in the cross-heading of Sch. 3 para. 19 effective 31 December 2020?",
+    "positive": "Textual Amendments\nF687 Words in Sch. 3 para. 19 cross-heading substituted (31.12.2020) by The Data Protection, Privacy and \nElectronic Communications (Amendments etc) (EU Exit) Regulations 2019 (S.I. 2019/419) , reg. 1(2),\nSch. 2 para. 93(16) (with reg. 5); 2020 c. 1, Sch. 5 para. 1(1)",
+    "negative": "Regulation should apply. For example, Article 16(2) of Regulation (EU) 2017/745, establishing that certain changes \nshould not be considered to be modifications of a device that could affect its compliance with the applicable \nrequirements, should continue to apply to high-risk AI systems that are medical devices within the meaning of that \nRegulation.\n(85) General-purpose AI systems may be used as high-risk AI systems by themselves or be components of other high-risk",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What specific information regarding data provenance, scope, selection, and labelling procedures must be documented in accordance with the regulatory requirements for AI system transparency?",
+    "positive": "techniques and the training data sets used, including a general description of these data sets, information about \ntheir provenance, scope and main characteristics; how the data was obtained and selected; labelling procedures \n(e.g. for supervised learning), data cleaning methodologies (e.g. outliers detection);\n(e) assessment of the human oversight measures needed in accordance with Article 14, including an assessment of",
+    "negative": "subsections (6) and (7) do not apply but the notice must not require the individual to \nattend at the specified place and answer questions before the end of the period of 24 \nhours beginning when the notice is given.\n(9) The Commissioner may cancel or vary an interview notice by written notice to the \nindividual to whom it was given.\n148B Interview notices: restrictions\n(1) An interview notice does not require an individual to answer questions to the extent",
+    "source": "docs/eu_ai_act.pdf"
+  },
+  {
+    "question": "What is the specific legal definition of \"re-identifying\" information provided in paragraph (b) of the regulatory text?",
+    "positive": "in the content and are referenced with annotations. (See end of Document for details) View outstanding changes\n(b) a person \u201cre-identifies\u201d information if the person takes steps which result \nin the information no longer being de-identified within the meaning of \nparagraph (a).\n(3) It is a defence for a person charged with an offence under subsection (1) to prove that \nthe re-identification\u2014\n(a) was necessary for the purposes of preventing [F487, investigating] or detecting \ncrime,",
+    "negative": "be attributed to a specific data subject without the use of additional information, provided that such additional \ninformation is kept separately and is subject to technical and organisational measures to ensure that the personal \ndata are not attributed to an identified or identifiable natural person;  \n(6) \u2018filing system\u2019 means any structured set of personal data which are accessible according to specific criteria, whether",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What is the statutory definition of \"inaccurate\" in relation to personal data under the provided regulatory text?",
+    "positive": "in the content and are referenced with annotations. (See end of Document for details) View outstanding changes\n\u201cinaccurate\u201d, in relation to personal data, means incorrect or misleading as \nto any matter of fact;\n\u201cinternational obligation of the United Kingdom\u201d includes\u2014\n(a) F562. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n(b) an obligation that arises under an international agreement or \narrangement to which the United Kingdom is a party;",
+    "negative": "Article 19;\n(f) ensure that the high-risk AI system undergoes the relevant conformity assessment procedure as referred to in Article 43, \nprior to its being placed on the market or put into service;\n(g) draw up an EU declaration of conformity in accordance with Article 47;\n(h) affix the CE marking to the high-risk AI system or, where that is not possible, on its packaging or its accompanying \ndocumentation, to indicate conformity with this Regulation, in accordance with Article 48;",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What specific factors must be considered when determining the degree of responsibility of a controller or processor, including their implementation of technical and organisational measures under Articles 25 and 32?",
+    "positive": "(d)  the degree of responsibility of the controller or processor taking into account technical and organisational measures \nimplemented by them pursuant to Articles 25 and 32; \n(e)  any relevant previous infringements by the controller or processor; \n(f)  the degree of cooperation with the supervisory authority, in order to remedy the infringement and mitigate the \npossible adverse effects of the infringement; \n(g)  the categories of personal data affected by the infringement;",
+    "negative": "question arising in the proceedings if\u2014\n(a) the question relates to a time when the provision was in force, and\n(b) the provision appears to the court or tribunal to be relevant to the question.\n(5) In determining a question arising in connection with the carrying out of any of the \nCommissioner's functions, the Commissioner must take into account a provision of a \ndocument issued under section 192(3) if\u2014\n(a) the question relates to a time when the provision was in force, and",
+    "source": "docs/gdpr.pdf"
+  },
+  {
+    "question": "Under which specific sections of the Pensions Act 2004 is the Ombudsman for the Board of the Pension Protection Fund established?",
+    "positive": "equivalent effect in Northern \nIreland.\n4. The Board of the Pension Protection Fund. By or under sections 206 to 208 \nof the Pensions Act 2004 or any \ncorresponding legislation having \nequivalent effect in Northern \nIreland.\n5. The Ombudsman for the Board of the \nPension Protection Fund.\nBy or under any of sections 209 \nto 218 or 286(1) of the Pensions \nAct 2004 or any corresponding \nlegislation having equivalent effect \nin Northern Ireland.\n6. The Pensions Regulator. By an enactment.",
+    "negative": "against pollution, green transition measures, climate change mitigation and adaptation measures;\n(iii) energy sustainability;\n(iv) safety and resilience of transport systems and mobility, critical infrastructure and networks;\n(v) efficiency and quality of public administration and public services;\n(b) the data processed are necessary for complying with one or more of the requirements referred to in Chapter III,",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "On what date did Schedule 19, paragraph 345 of the Controlled Drugs (Supervision of Management and Use) Regulations (Northern Ireland) 2009 come into force?",
+    "positive": "in the content and are referenced with annotations. (See end of Document for details) View outstanding changes\nControlled Drugs (Supervision of Management and Use) \nRegulations (Northern Ireland) 2009 (S.R (N.I.) 2009 No. 225)\n345 The Controlled Drugs (Supervision of Management and Use) Regulations \n(Northern Ireland) 2009 are amended as follows.\nCommencement Information\nI827 Sch. 19 para. 345 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(g)",
+    "negative": "exercise their powers by acting with complete independence. Any limitations of their access to sensitive operational \ndata under this Regulation should be without prejudice to the powers conferred to them by Directive \n(EU) 2016/680. No exclusion on disclosing data to national data protection authorities under this Regulation should \naffect the current or future powers of those authorities beyond the scope of this Regulation.",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What are the three specific legal criteria a not-for-profit body, organization, or association must meet to be eligible to mandate on behalf of a data subject whose rights under the Regulation are infringed?",
+    "positive": "submission form which can also be completed electronically, without excluding other means of communication. \n(142)  Where a data subject considers that his or her rights under this Regulation are infringed, he or she should have \nthe right to mandate a not-for-profit body, organisation or association which is constituted in accordance with \nthe law of a Member State, has statutory objectives which are in the public interest and is active in the field of",
+    "negative": "(b) is conferred on that person as described in column 2 of the Table,\nto the extent that the application of those provisions would be likely to prejudice \nthe proper discharge of the function.\nTABLE\nPerson on whom function is conferred How function is conferred\n1. The Commissioner. By or under\u2014\n(a) the data protection \nlegislation;\n(b) the Freedom of Information \nAct 2000;\n(c) section 244 of the \nInvestigatory Powers Act \n2016;\n(d) the Privacy and Electronic \nCommunications (EC",
+    "source": "docs/gdpr.pdf"
+  },
+  {
+    "question": "As of July 9, 2026, does the current version of the Data Protection Act 2018 contain any prospective provisions that have not yet come into force?",
+    "positive": "Data Protection Act 2018 (c. 12)\nSCHEDULE 20 \u2013 Transitional provision etc\nDocument Generated: 2026-07-09\n499\nStatus: This version of this Act contains provisions that are prospective.\nChanges to legislation: Data Protection Act 2018 is up to date with all changes known to be in force on or before 09 \nJuly 2026. There are changes that may be brought into force at a future date. Changes that have been made appear",
+    "negative": "purposes, based on Union or Member State law which has to meet an objective of public interest, as well as for \nstudies conducted in the public interest in the area of public health. Therefore, this Regulation should provide for \nharmonised conditions for the processing of special categories of personal data concerning health, in respect of \nspecific needs, in particular where the processing of such data is carried out for certain health-related purposes",
+    "source": "docs/uk_data_protection.pdf"
+  },
+  {
+    "question": "What specific information from Article 33(3) must be included in the communication to the data subject regarding a personal data breach?",
+    "positive": "2. The communication to the data subject referred to in paragraph 1 of this Article shall describe in clear and plain \nlanguage the nature of the personal data breach and contain at least the information and measures referred to in \npoints (b), (c) and (d) of Article 33(3). \n3. The communication to the data subject referred to in paragraph 1 shall not be required if any of the following \nconditions are met:",
+    "negative": "on the market or the number of users it may affect. To complement this system, there should be a possibility for the \nCommission to take individual decisions designating a general-purpose AI model as a general-purpose AI model \nwith systemic risk if it is found that such model has capabilities or an impact equivalent to those captured by the set \nthreshold. That decision should be taken on the basis of an overall assessment of the criteria for the designation of",
+    "source": "docs/gdpr.pdf"
+  },
+  {
+    "question": "What specific amendment is made to Section 204(1)(g) of the Act regarding the definition of \"social work professional\" to reflect the registration arrangements under Part 2 of the Children and Social Work Act 2017?",
+    "positive": "3(5) o'r Ddeddf honno.\u201d\nCommencement Information\nI709 Sch. 19 para. 226 in force at 25.5.2018 by S.I. 2018/625, reg. 2(1)(g)\nThis Act\n227 (1) Section 204 of this Act (meaning of \u201chealth professional\u201d and \u201csocial work \nprofessional\u201d) is amended as follows (to reflect the arrangements for the registration \nof social workers in England under Part 2 of the Children and Social Work Act 2017).\n(2) In subsection (1)(g)\u2014\n(a) omit \u201cand Social Work\u201d, and",
+    "negative": "a free and open-source licence that allows for the access, usage, modification, and distribution of the model, and whose \nparameters, including the weights, the information on the model architecture, and the information on model usage, are \nmade publicly available, unless the general-purpose AI models present systemic risks.\nSECTION 3\nObligations of providers of general-purpose AI models with systemic risk\nArticle 55\nObligations of providers of general-purpose AI models with systemic risk",
+    "source": "docs/uk_data_protection.pdf"
+  }
+]
