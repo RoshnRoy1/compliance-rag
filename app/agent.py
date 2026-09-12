@@ -1,8 +1,10 @@
 from groq import Groq
+from langfuse import Langfuse, observe
 from config import GROQ_API_KEY, LLM_MODEL, LLM_TEMPERATURE, LLM_MAX_TOKENS
 from app.retriever import retrieve, retrieve_from_doc, get_available_docs
 
 llm = Groq(api_key=GROQ_API_KEY)
+langfuse = Langfuse()
 
 ROUTER_PROMPT = """You are a routing assistant for a compliance document system containing: {available_docs}
 
@@ -16,8 +18,8 @@ COMPARE: <filename1> vs <filename2>
 Rules:
 - DIRECT: greetings, general knowledge, math, anything unrelated to compliance
 - SEARCH_ALL: general compliance questions not targeting a specific regulation
-- SEARCH_DOC: question clearly targets one specific regulation (e.g. "What does GDPR say about..." → SEARCH_DOC: gdpr.pdf)
-- COMPARE: question asks to compare or contrast two regulations (e.g. "How do GDPR and UK DPA differ on..." → COMPARE: gdpr.pdf vs uk_data_protection.pdf)
+- SEARCH_DOC: question clearly targets one specific regulation (e.g. "What does GDPR say about..." -> SEARCH_DOC: gdpr.pdf)
+- COMPARE: question asks to compare or contrast two regulations (e.g. "How do GDPR and UK DPA differ on..." -> COMPARE: gdpr.pdf vs uk_data_protection.pdf)
 
 Question: {question}
 
@@ -70,6 +72,7 @@ def call_llm(prompt, temperature=None, max_tokens=None):
     return response.choices[0].message.content
 
 
+@observe()
 def route(question):
     available = ", ".join(get_available_docs())
     prompt = ROUTER_PROMPT.format(question=question, available_docs=available)
@@ -99,6 +102,7 @@ def build_context(sources):
     return "\n\n".join(parts)
 
 
+@observe()
 def handle_direct(question):
     answer = call_llm(DIRECT_PROMPT.format(question=question))
     return {
@@ -109,6 +113,7 @@ def handle_direct(question):
     }
 
 
+@observe()
 def handle_search_all(question, top_k=3):
     sources = retrieve(question, top_k=top_k)
     context = build_context(sources)
@@ -121,6 +126,7 @@ def handle_search_all(question, top_k=3):
     }
 
 
+@observe()
 def handle_search_doc(question, doc_name, top_k=3):
     sources = retrieve_from_doc(question, doc_name, top_k=top_k)
 
@@ -142,6 +148,7 @@ def handle_search_doc(question, doc_name, top_k=3):
     }
 
 
+@observe()
 def handle_compare(question, doc1, doc2, top_k=3):
     sources1 = retrieve_from_doc(question, doc1, top_k=top_k)
     sources2 = retrieve_from_doc(question, doc2, top_k=top_k)
@@ -163,6 +170,7 @@ def handle_compare(question, doc1, doc2, top_k=3):
     }
 
 
+@observe()
 def ask(question, top_k=3):
     action, params = route(question)
 
