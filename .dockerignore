@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+.git/
+frontend/node_modules/
+finetune/compliance-MiniLM/
