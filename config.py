@@ -20,3 +20,6 @@ DEFAULT_TOP_K = 3
 
 # Documents
 DOCS_FOLDER = "docs"
+
+import os
+USE_RERANKER = os.getenv("USE_RERANKER", "true").lower() == "true"

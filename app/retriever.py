@@ -24,9 +24,14 @@ bm25_index = BM25Okapi(tokenized_docs)
 print(f"BM25 index built over {len(all_docs)} chunks.")
 
 # Cross-encoder reranker setup
-print("Loading cross-encoder reranker...")
-reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
-print("Reranker loaded.")
+from config import USE_RERANKER
+if USE_RERANKER:
+    print("Loading cross-encoder reranker...")
+    reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+    print("Reranker loaded.")
+else:
+    reranker = None
+    print("Reranker disabled (USE_RERANKER=false)")
 
 
 def get_chunk_count():
@@ -153,10 +158,11 @@ def _merge_results(vector_results, bm25_results, top_k=3):
 def _rerank(question, candidates, top_k=3):
     if not candidates:
         return []
+    if reranker is None:
+        return candidates[:top_k]
 
     pairs = [[question, c["text"]] for c in candidates]
     scores = reranker.predict(pairs)
-   
 
     for candidate, score in zip(candidates, scores):
         candidate["rerank_score"] = round(float(score), 4)

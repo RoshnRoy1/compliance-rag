@@ -59,3 +59,6 @@ def score_faithfulness(question, answer, sources):
         }
     except json.JSONDecodeError:
         return {"score": None, "error": "Could not parse faithfulness response", "raw": raw}
+
+
+     
