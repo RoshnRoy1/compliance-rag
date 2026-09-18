@@ -3,7 +3,9 @@ import chromadb
 from chromadb.utils import embedding_functions
 from rank_bm25 import BM25Okapi
 from config import CHROMA_PATH, COLLECTION_NAME, DEFAULT_TOP_K, DOCS_FOLDER
-from sentence_transformers import CrossEncoder
+from config import USE_RERANKER
+if USE_RERANKER:
+    from sentence_transformers import CrossEncoder
 
 # Vector search setup
 ef = embedding_functions.DefaultEmbeddingFunction()
