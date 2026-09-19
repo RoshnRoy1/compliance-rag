@@ -112,6 +112,17 @@ def _bm25_search(question, top_k=10, doc_filter=None):
             ))
     return sources
 
+def reload_bm25():
+    """Reload BM25 index after new documents are added."""
+    global all_data, all_docs, all_metadatas, all_ids, tokenized_docs, bm25_index
+    print("Reloading BM25 index...")
+    all_data = collection.get(include=["documents", "metadatas"])
+    all_docs = all_data["documents"]
+    all_metadatas = all_data["metadatas"]
+    all_ids = all_data["ids"]
+    tokenized_docs = [doc.lower().split() for doc in all_docs]
+    bm25_index = BM25Okapi(tokenized_docs)
+    print(f"BM25 index reloaded with {len(all_docs)} chunks.")
 
 def _merge_results(vector_results, bm25_results, top_k=3):
     """
@@ -171,6 +182,8 @@ def _rerank(question, candidates, top_k=3):
 
     reranked = sorted(candidates, key=lambda x: x["rerank_score"], reverse=True)
     return reranked[:top_k]
+
+   
 
 
 def retrieve(question, top_k=DEFAULT_TOP_K):

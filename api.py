@@ -7,6 +7,8 @@ from pydantic import BaseModel
 from config import DOCS_FOLDER
 from app.agent import ask
 from app.retriever import get_chunk_count
+from fastapi import FastAPI, UploadFile, File
+from app.ingest_file import ingest_single_file
 
 
 app = FastAPI(title="Compliance RAG API")
@@ -26,6 +28,39 @@ class QueryRequest(BaseModel):
 @app.post("/api/query")
 async def query(q: QueryRequest):
     return ask(q.question, top_k=q.top_k)
+
+@app.post("/api/upload")
+async def upload_document(file: UploadFile = File(...)):
+    allowed = [".pdf", ".txt", ".md", ".docx"]
+    ext = os.path.splitext(file.filename)[1].lower()
+
+    if ext not in allowed:
+        return {"error": f"Unsupported file type. Allowed: {', '.join(allowed)}"}
+
+    # Save to docs folder
+    filepath = os.path.join("docs", file.filename)
+    with open(filepath, "wb") as f:
+        content = await file.read()
+        f.write(content)
+
+    try:
+        chunks_added = ingest_single_file(filepath)
+
+        # Reload BM25 index with new chunks
+        from app.retriever import reload_bm25
+        reload_bm25()
+
+        return {
+            "filename": file.filename,
+            "chunks_added": chunks_added,
+            "total_chunks": chunks_added,
+            "status": "success",
+        }
+    except Exception as e:
+        # Remove file if ingestion failed
+        if os.path.exists(filepath):
+            os.remove(filepath)
+        return {"error": str(e)}
 
 @app.get("/api/health")
 async def health():

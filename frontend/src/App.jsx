@@ -24,6 +24,8 @@ function App() {
   const [documents, setDocuments] = useState([]);
   const [expandedSource, setExpandedSource] = useState(null);
   const [activeTab, setActiveTab] = useState("chat");
+  const [uploading, setUploading] = useState(false);
+  const [uploadMsg, setUploadMsg] = useState("");
   const bottomRef = useRef(null);
 
   useEffect(() => {
@@ -158,7 +160,50 @@ function App() {
 
         {activeTab === "docs" && (
           <div className="sidebar-section">
-            <div className="sidebar-label">Source documents</div>
+            <div className="sidebar-label">Upload document</div>
+            <label className="upload-area">
+              <input
+                type="file"
+                accept=".pdf,.txt,.md,.docx"
+                style={{ display: "none" }}
+                onChange={async (e) => {
+                  const file = e.target.files[0];
+                  if (!file) return;
+                  setUploading(true);
+                  setUploadMsg("");
+                  const formData = new FormData();
+                  formData.append("file", file);
+                  try {
+                    const res = await fetch(API + "/api/upload", {
+                      method: "POST",
+                      body: formData,
+                    });
+                    const data = await res.json();
+                    if (data.error) {
+                      setUploadMsg("Error: " + data.error);
+                    } else {
+                      setUploadMsg(file.name + " added (" + data.chunks_added + " chunks)");
+                      fetch(API + "/api/documents")
+                        .then((r) => r.json())
+                        .then((d) => setDocuments(d.documents || []));
+                      fetch(API + "/api/health")
+                        .then((r) => r.json())
+                        .then((d) => setDbStatus(d));
+                    }
+                  } catch (err) {
+                    setUploadMsg("Upload failed. Is the backend running?");
+                  }
+                  setUploading(false);
+                  e.target.value = "";
+                }}
+                disabled={uploading}
+              />
+              <span>{uploading ? "Processing..." : "Drop or click to upload"}</span>
+              <span className="upload-hint">PDF, TXT, DOCX</span>
+            </label>
+            {uploadMsg && <div className="upload-msg">{uploadMsg}</div>}
+
+            <div className="sidebar-label" style={{ marginTop: "16px" }}>Source documents</div>
             <div className="doc-list">
               {documents.map((doc, i) => (
                 <a
@@ -235,10 +280,6 @@ function App() {
                           const relevance = s.rerank_score !== undefined
                             ? s.rerank_score
                             : (1 - s.distance);
-                          // Cross-encoder scores for this model typically range -12 to +6.
-                          // Shift and scale so that range maps to roughly 1%-99% instead of
-                          // collapsing near 0 with a plain sigmoid.
-          
                           const matchPct = Math.max(
                             1,
                             Math.min(99, Math.round(sigmoid((relevance + 4) / 2) * 100))
